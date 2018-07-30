@@ -1,0 +1,8 @@
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/obj/Debug/netstandard2.0/MenuItemsPOC.csproj.CoreCompileInputs.cache
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/obj/Debug/netstandard2.0/MenuItemsPOC.AssemblyInfoInputs.cache
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/obj/Debug/netstandard2.0/MenuItemsPOC.AssemblyInfo.cs
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/obj/Debug/netstandard2.0/MenuItemsPOC.dll
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/obj/Debug/netstandard2.0/MenuItemsPOC.pdb
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/bin/Debug/netstandard2.0/MenuItemsPOC.deps.json
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/bin/Debug/netstandard2.0/MenuItemsPOC.dll
+/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC/bin/Debug/netstandard2.0/MenuItemsPOC.pdb

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MenuItemsPOC.App"
+    xmlns:controls="clr-namespace:MenuItemsPOC.Controls;assembly=MenuItemsPOC"
+    xmlns:converters="clr-namespace:MenuItemsPOC.Converters;assembly=MenuItemsPOC"
+    xmlns:dataTemplateSelectors="clr-namespace:MenuItemsPOC.DataTemplateSelectors;assembly=MenuItemsPOC"
+    
+    >
+    <Application.Resources>
+
+    <converters:StatusToStringConverter x:Key="StatusToStringConverter" />
+
+
+    <DataTemplate x:Key="MainTemplate">
+        <controls:SwitchableMenuItemsDemoViewCell
+            Title="{Binding Title}"
+            Status="{Binding Status}"
+            >
+            <controls:SwitchableMenuItemsDemoViewCell.PendingMenuItems>
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Pend. 1" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Pend. 2" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Pend. 3" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Pend. 4" />                       
+            </controls:SwitchableMenuItemsDemoViewCell.PendingMenuItems>
+            <controls:SwitchableMenuItemsDemoViewCell.UploadMenuItems>
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Uplo. 1" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Uplo. 2" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Uplo. 3" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Uplo. 4" />                       
+            </controls:SwitchableMenuItemsDemoViewCell.UploadMenuItems>
+            <controls:SwitchableMenuItemsDemoViewCell.CompleteMenuItems>
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Comp. 1" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Comp. 2" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Comp. 3" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Comp. 4" />                       
+            </controls:SwitchableMenuItemsDemoViewCell.CompleteMenuItems>
+            <controls:SwitchableMenuItemsDemoViewCell.FailedMenuItems>
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Fail. 1" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Fail. 2" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Fail. 3" />
+                <MenuItem Clicked="DemoMenuItems" CommandParameter="{Binding DisplayData.DocumentId}" Text="Fail. 4" />                       
+            </controls:SwitchableMenuItemsDemoViewCell.FailedMenuItems>                
+            </controls:SwitchableMenuItemsDemoViewCell>
+    </DataTemplate>
+
+    <DataTemplate x:Key="SeparatorTemplate">
+        <ViewCell>
+            <Grid HeightRequest="10" BackgroundColor="Red" />
+        </ViewCell>
+    </DataTemplate>        
+
+    <dataTemplateSelectors:MainPageDataTemplateSelector x:Key="MainPageDataTemplateSelector"
+        MainTemplate="{StaticResource MainTemplate}"
+        SeparatorTemplate="{StaticResource SeparatorTemplate}"                         
+        />
+    </Application.Resources>
+</Application>

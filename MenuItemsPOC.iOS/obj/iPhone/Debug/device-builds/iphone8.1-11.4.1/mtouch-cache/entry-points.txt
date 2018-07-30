@@ -1,0 +1,29 @@
+Function=xamarin_timezone_get_data
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/BathSpaCentral/MenuItemsPOC/MenuItemsPOC/MenuItemsPOC.iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.4.1/mtouch-cache/Link/System.dll
+Function=mono_pmip
